@@ -9,6 +9,34 @@ body {
     padding: 25px;
 }
 
+.company-name {
+    font-size: 65px;
+    background-color: lightblue;
+}
+
+.byline {
+    font-size: 60px;
+    
+}
+
+.about-me {
+    background-color:lightblue;
+}
+
+.my-projects {
+   
+}
+
+.contact-me {
+    background-color: lightblue;
+}
+
+.form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1, h3 {
     text-align: center;
 }
@@ -20,4 +48,32 @@ h1, h3 {
 
 .form {
     
+}
+
+/* Cards */
+.card-fixed-height {
+    height: 300px; 
+    padding: 20px;
+  }
+
+  .card-img-top {
+    height: 200px; /* Adjust the height for images */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: lightblue;
+
+  }
+
+  .card-title {
+    text-align: center;
+  }
+
+.text-decoration-none {
+    padding: 15px;
+
 }
